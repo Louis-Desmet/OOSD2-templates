@@ -195,7 +195,7 @@ private void btnPushed(à
  //doe iets
  }
  ````
-###Alert
+### Alert
 ````java
 Alert alert = new Alert(AlertType.INFORMATION);
 //.setTitle()
