@@ -145,6 +145,42 @@ public class EmailNotUniqueException extends Exception{
 }
 ```
 ## 5. GUI - JavaFX
+###Componenten toevoegen (met voorbeeld):
+````java
+public class WelkomScherm extends Pane{
+	
+	public WelkomScherm() {
+		Label lblWelkom = new Label("Welkom!");
+		this.getChildren().addAll(lblWelkom); //toevoegen componenten
+	}
+	
+}
+````
+
+###StartUp
+````java
+public class StartUp extends Application {
+	@Override
+	public void start(Stage primaryStage) {
+		try {
+			
+			WelkomScherm root = new WelkomScherm();
+			Scene scene = new Scene(root,400,400);
+			primaryStage.setScene(scene);
+			primaryStage.show();
+			
+		} catch(Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+	public static void main(String[] args) {
+		launch(args);
+	}
+}
+````
+
+
 
 ## 6. Collecties
 
