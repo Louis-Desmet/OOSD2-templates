@@ -179,7 +179,31 @@ public class StartUp extends Application {
 	}
 }
 ````
+### Event Handling
+#### Met lambda expressie
+````java
+btn.setOnAction(event -> {
+ //doe iets	
+});
+````
+#### Met method reference
+````java
+btn.setOnAction(this::btnPushed);
 
+private void btnPushed(à
+ {
+ //doe iets
+ }
+ ````
+###Alert
+````java
+Alert alert = new Alert(AlertType.INFORMATION);
+//.setTitle()
+//.setHeaderText()
+//.setContentText()
+
+alert.showAndWait();
+````
 
 
 ## 6. Collecties
