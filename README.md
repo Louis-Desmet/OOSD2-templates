@@ -145,7 +145,7 @@ public class EmailNotUniqueException extends Exception{
 }
 ```
 ## 5. GUI - JavaFX
-###Componenten toevoegen (met voorbeeld):
+### Componenten toevoegen (met voorbeeld):
 ````java
 public class WelkomScherm extends Pane{
 	
@@ -157,7 +157,7 @@ public class WelkomScherm extends Pane{
 }
 ````
 
-###StartUp
+### StartUp
 ````java
 public class StartUp extends Application {
 	@Override
