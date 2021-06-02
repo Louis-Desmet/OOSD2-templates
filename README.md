@@ -14,9 +14,9 @@ Samenvatting Object-oriented Software Developement II (OOSDII). <br>
 <a href=#9>9. bestandsverwerking</a><br>
 
 
-
-## 1. Overerving
 <br id=1>
+## 1. Overerving
+
 
 ## 2. Polymorfisme
 <br id=2>
@@ -161,8 +161,9 @@ public class EmailNotUniqueException extends Exception{
     }
 }
 ```
-## 5. GUI - JavaFX
 <br id=5>
+## 5. GUI - JavaFX
+
 
 ### Componenten toevoegen (met voorbeeld):
 ````java
