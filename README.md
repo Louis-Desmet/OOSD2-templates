@@ -3,6 +3,10 @@ Samenvatting Object-oriented Software Developement II (OOSDII). <br>
 **OPGELET**: Niet alle leerstof staat in deze "samenvatting". <br>
 `Feel free to contribute! 🤝🏻`
 
+<a href=#6>Overerving</a>
+
+
+
 ## 1. Overerving
 
 ## 2. Polymorfisme
@@ -215,7 +219,7 @@ Dan in de klasse: KlasseDieOpComboBoxReageert
 ````java
 public void handle(ActionEvent event) {}
 ````
-
+<br id=6>
 ## 6. Collecties
 
 ### Collection\<E\>
