@@ -3,15 +3,27 @@ Samenvatting Object-oriented Software Developement II (OOSDII). <br>
 **OPGELET**: Niet alle leerstof staat in deze "samenvatting". <br>
 `Feel free to contribute! 🤝🏻`
 
-<a href=#6>Overerving</a>
+<a href=#1>1. Overerving</a>
+<a href=#2>2. Polymorfisme</a>
+<a href=#3>3. Lambda excpressies</a>
+<a href=#4>4. Exception Handling</a>
+<a href=#5>5. GUI</a>
+<a href=#6>6. Collections</a>
+<a href=#7>7. Streams</a>
+<a href=#8>8. Strings & Regex</a>
+<a href=#9>9. bestandsverwerking</a>
 
 
 
 ## 1. Overerving
+<br id=1>
 
 ## 2. Polymorfisme
+<br id=2>
 
 ## 3. Lambda expressies
+<br id=3>
+
 ### Anonieme innerklasse
 Een anonieme innerklasse is een klasse die binnen een methode wordt gedeclareerd maar geen naam heeft. De syntax van een anonieme inner klasse expressie is analoog aan het aanroepen van een constructor, behalve dat deze constructor vervangen wordt door een klasse definitie binnen een code blok.
 ````java
@@ -83,6 +95,7 @@ public class HelloWorldMethodReference {
 
 
 ## 4. Exception handling
+<br id=4>
 Een exception is een uitzonderlijke gebeurtenis, die kan optreden bij het uitvoeren van een applicatie en die de normale voortgang van de applicatie onderbreekt.
 Via exception handling kan die uitzonderlijke gebeurtenis opgevangen worden. Zo programmeren we 'robuuste' applicaties.
 
@@ -149,6 +162,8 @@ public class EmailNotUniqueException extends Exception{
 }
 ```
 ## 5. GUI - JavaFX
+<br id=5>
+
 ### Componenten toevoegen (met voorbeeld):
 ````java
 public class WelkomScherm extends Pane{
@@ -219,8 +234,9 @@ Dan in de klasse: KlasseDieOpComboBoxReageert
 ````java
 public void handle(ActionEvent event) {}
 ````
-<br id=6>
+
 ## 6. Collecties
+<br id=6>
 
 ### Collection\<E\>
 Deze interface vormt de basis, de root van het collection framework. Alle onderstaande interfaces stammen af van deze interface.
@@ -369,6 +385,8 @@ E higher(E e)
 
 
 ## 7. Streams
+<br id=7>
+	
 Een stream is een opeenvolging van objecten die verschillende methoden ondersteunt die kunnen worden gepiped om het gewenste resultaat te verkrijgen. Streams wijzigen de databron niet. Ook is er geen geïndexeerde toegang. <br>
 Databron ➞ plaatsen van een Stream ➞ resultaat
 
@@ -433,6 +451,8 @@ list.stream(). // vervolledig met Stream
 ```
 
 ## 8. Strings & Regex
+<br id=8>
+	
 ### String methodes
 [Java String API](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) <br>
 **String methodes**
@@ -547,6 +567,7 @@ while(m.find()){
 
 
 ## 9. Bestandsverwerking
+<br id=9>
 Om een tekstbestand te kunnen lezen en/of schrijven moet je 3 stappen doorlopen:
 1. Openen bestand om te lezen of te schrijven
 2. Bewerkingen uitvoeren
