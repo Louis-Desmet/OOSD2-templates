@@ -204,7 +204,13 @@ Alert alert = new Alert(AlertType.INFORMATION);
 
 alert.showAndWait();
 ````
-
+### ComboBox
+````java
+		cboTitels = new ComboBox<>();
+		cboTitels.setItems(FXCollections.observableList(Arrays.asList(titels)));
+		cboTitels.setPromptText("Kies uw item");
+		cboTitels.setOnAction((EventHandler<ActionEvent>) new KlasseDieOpComboBoxReageert(cboTitels, this));
+````
 
 ## 6. Collecties
 
