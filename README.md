@@ -453,6 +453,7 @@ list.stream(). // vervolledig met Stream
 
 ## 8. Strings & Regex
 <br id=8>
+https://regex101.com/
 	
 ### String methodes
 [Java String API](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) <br>
