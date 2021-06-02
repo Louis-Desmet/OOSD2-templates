@@ -459,7 +459,7 @@ list.stream(). // vervolledig met Stream
 ## 8. Strings & Regex
 <br id=8>
 https://regex101.com/
-	
+
 ### String methodes
 [Java String API](https://docs.oracle.com/javase/7/docs/api/java/lang/String.html) <br>
 **String methodes**
@@ -699,3 +699,10 @@ try {
 
 return lijst;
 ```
+
+##Andere
+lijst.forEach(system.out::println);
+List<String> lijst = Arrays.asList(arrayNaam);
+IntStream.of(array);
+list.stream().map(...);
+
