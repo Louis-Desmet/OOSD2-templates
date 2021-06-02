@@ -519,7 +519,7 @@ while(tokens.hasMoreTokens()){
     System.out.println(tokens.nextToken());   
 }
 ```
-
+	
 ### Regex
 #### Reguliere expressies
 | Expressie | Matches                                          |
@@ -557,6 +557,8 @@ String[] split(String regex)
 String zin = "Doneer mij een RTX 3070!"
 Pattern p = Pattern.compile("[\\d]");
 Matcher m = p.matcher(zin);
+	
+if (postcode.matches("\\d{4}"))
 
 int count = 0;
 while(m.find()){
