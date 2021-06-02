@@ -525,7 +525,7 @@ while(tokens.hasMoreTokens()){
 | Expressie | Matches                                          |
 |:---------:|--------------------------------------------------|
 | \d        | elk cijfer                                       |
-| \W        | elke letter, cijfer of underscore                |
+| \w        | elke letter, cijfer of underscore                |
 | \s        | elke witruimte                                   |
 | .         | elk karakter, maar geen newline                  |
 | \.        | een punt                                         |
