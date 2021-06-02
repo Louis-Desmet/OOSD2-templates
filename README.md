@@ -319,10 +319,10 @@ void ensureCapacity(int minCapacity)
 ### Queue\<E\>
 Een queue wordt typisch gebruikt om elementen bij te houden alvorens ze te verwerken. Een queue is een FIFO structuur. <br>
 (👿) Elementen in queue zijn niet te benaderen via hun positie.
-
+FIFO
 ```java
 // retourneer speciale waarden
-boolean offer(E e)
+boolean offer(E e) //erin steken
 E peek()
 E poll()
 
