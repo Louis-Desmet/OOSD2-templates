@@ -211,6 +211,10 @@ alert.showAndWait();
 		cboTitels.setPromptText("Kies uw item");
 		cboTitels.setOnAction((EventHandler<ActionEvent>) new KlasseDieOpComboBoxReageert(cboTitels, this));
 ````
+Dan in de klasse: KlasseDieOpComboBoxReageert
+````java
+public void handle(ActionEvent event) {}
+````
 
 ## 6. Collecties
 
