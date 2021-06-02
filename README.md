@@ -3,15 +3,15 @@ Samenvatting Object-oriented Software Developement II (OOSDII). <br>
 **OPGELET**: Niet alle leerstof staat in deze "samenvatting". <br>
 `Feel free to contribute! 🤝🏻`
 
-<a href=#1>1. Overerving</a>
-<a href=#2>2. Polymorfisme</a>
-<a href=#3>3. Lambda excpressies</a>
-<a href=#4>4. Exception Handling</a>
-<a href=#5>5. GUI</a>
-<a href=#6>6. Collections</a>
-<a href=#7>7. Streams</a>
-<a href=#8>8. Strings & Regex</a>
-<a href=#9>9. bestandsverwerking</a>
+<a href=#1>1. Overerving</a> <br>
+<a href=#2>2. Polymorfisme</a><br>
+<a href=#3>3. Lambda excpressies</a><br>
+<a href=#4>4. Exception Handling</a><br>
+<a href=#5>5. GUI</a><br>
+<a href=#6>6. Collections</a><br>
+<a href=#7>7. Streams</a><br>
+<a href=#8>8. Strings & Regex</a><br>
+<a href=#9>9. bestandsverwerking</a><br>
 
 
 
