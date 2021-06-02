@@ -226,14 +226,19 @@ alert.showAndWait();
 ````
 ### ComboBox
 ````java
-		cboTitels = new ComboBox<>();
-		cboTitels.setItems(FXCollections.observableList(Arrays.asList(titels)));
-		cboTitels.setPromptText("Kies uw item");
-		cboTitels.setOnAction((EventHandler<ActionEvent>) new KlasseDieOpComboBoxReageert(cboTitels, this));
+cboTitels = new ComboBox<>();
+cboTitels.setItems(FXCollections.observableList(Arrays.asList(titels)));
+cboTitels.setPromptText("Kies uw item");
+cboTitels.setOnAction((EventHandler<ActionEvent>) new KlasseDieOpComboBoxReageert(cboTitels, this));
 ````
 Dan in de klasse: KlasseDieOpComboBoxReageert
 ````java
-public void handle(ActionEvent event) {}
+public class ReagerenOpComboBox implements EventHandler<Event> {
+public void handle(ActionEvent event) {
+int gekozenIndex = cboTitels.getSelectionModel().getSelectedIndex(); //gekozen index van de box
+}
+}
+
 ````
 
 ## 6. Collecties
